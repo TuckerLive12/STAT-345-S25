@@ -1,0 +1,19 @@
+---
+title: "Testing Git"
+author: "Jack Kucera"
+date: "2025-03-15"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Frist Part
+
+```{r}
+dat <- rnorm(1000)
+sd(dat)
+mean(dat)
+```
+
