@@ -12,8 +12,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Frist Part
 
 ```{r}
-dat <- rnorm(1000)
-sd(dat)
-mean(dat)
+for (i in 1:100) {
+  dat <- rnorm(1000)
+  sd(dat)
+  mean(dat)
+}
 ```
 
