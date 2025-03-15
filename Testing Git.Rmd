@@ -14,8 +14,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 for (i in 1:100) {
   dat <- rnorm(1000)
-  sd(dat)
-  mean(dat)
+  print(sd(dat))
+  mean((dat))
 }
 ```
 
